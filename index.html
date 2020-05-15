@@ -1,18 +1,286 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link id="cSel" rel="stylesheet" href="css/app.css" type="text/css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/app.css">
-
-    <title>Proyecto 1</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Memotest!</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url"           content="https://ajavieralejandro.github.io/proyecto-1/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Memotest!" />
+    <meta property="og:description"   content="Memotest free game" />
+   <meta property="og:image"         content="https://ajavieralejandro.github.io/proyecto-1/images/default.png" />
   </head>
-  <body>
-    <h1>Proyecto 1</h1>
 
-    <!-- JavaScript -->
-    <script src="js/app.js"></script>
+  <body class="light">
+      <div id="fb-root"></div>
+     
+                <div class="navbar-fixed">
+                                <nav>
+                                  <div class="nav-wrapper light">
+                                    <a href="#!" class="brand-logo">NetToys  <i class="large material-icons">insert_chart</i>                                    </a>
+                                    <ul class="right hide-on-med-and-down">
+                                      <li><a id="original" href="/">Original</a></li>
+                                      <li><a id="style" href="/">New Style</a></li>
+                                    </ul>
+                                  </div>
+                                </nav>
+                              </div>
+
+                                    
+<div class="container">
+  <div class="game">
+      <h1 class="centered">Memotest</h1>
+
+ 
+    <p class="timer" id="demo">Haga click en una ficha para comenzar</p>
+
+    <div class="row">
+      <div class="col s4 m3">
+        <div id="0" class="card darken-1">
+                <div class="card-image">
+                    <div class="aux z-depth-1">
+                        <img alt="game img" id="m0" src="images/default.png">
+                    </div></div>
+                      
+        </div>
+        </div>
+
+        <div class="col s4 m3">
+                
+              <div id="1" class="card darken-1">
+                      <div class="card-image">
+                              <img alt="game img" id="m1" src="images/default.png">
+                            </div>
+                            
+              </div>
+              </div>
+
+              <div class="col s4 m3">
+                  <div id="2" class="card darken-1">
+                          <div class="card-image">
+                                  <img alt="game img" id="m2" src="images/default.png">
+                                </div>
+                                
+                  </div>
+                  </div>
+
+                  <div class="col s4 m3">
+                        
+                      <div id="3" class="card darken-1">
+                              <div class="card-image">
+                                      <img alt="game img" id="m3" src="images/default.png">
+                                    </div>
+                                    
+                      </div>
+                      </div>
+
+                      <div class="col s4 m3">
+                            
+                          <div id="4" class="card darken-1">
+                                  <div class="card-image">
+                                          <img  alt="game img" id="m4" src="images/default.png">
+                                        </div>
+                                        
+                          </div>
+                          </div>
+                  
+                          <div class="col s4 m3">
+                                <div id="5" class="card darken-1">
+                                        <div class="card-image">
+                                                <img alt="game img" id="m5" src="images/default.png">
+                                              </div>
+                                              
+                                </div>
+                                </div>
+
+                                <div class="col s4 m3">    
+                                     <div id="6" class="card darken-1">
+                                              <div class="card-image">
+                                                      <img alt="game img" id="m6" src="images/default.png">
+                                                    </div>
+                                                    
+                                      </div>
+                                      </div>
+                              
+                                      <div class="col s4 m3">
+                                              
+                                            <div id="7" class="card darken-1">
+                                                    <div class="card-image">
+                                                            <img alt="game img" id="m7" src="images/default.png">
+                                                          </div>
+                                                          
+                                            </div>
+                                            </div>
+                              
+                                            <div class="col s4 m3">
+                                                  
+                                                <div id="8" class="card darken-1">
+                                                        <div class="card-image">
+                                                                <img alt="game img" id="m8" src="images/default.png">
+                                                              </div>
+                                                              
+                                                </div>
+                                                </div>
+                              
+                                                <div class="col s4 m3">
+                                                      
+                                                    <div id="9" class="card darken-1">
+                                                            <div class="card-image">
+                                                                    <img alt="game img" id="m9"  src="images/default.png">
+                                                                  </div>
+                                                                  
+                                                    </div>
+                                                    </div>
+                              
+                                                    <div class="col s4 m3">
+                                                          
+                                                        <div id="10" class="card darken-1">
+                                                                <div  class="card-image">
+                                                                        <img alt="game img" id="m10" src="images/default.png">
+                                                                      </div>
+                                                                      
+                                                        </div>
+                                                        </div>
+                                                
+                                                        <div class="col s4 m3">
+                                                                
+                                                              <div id="11" class="card darken-1">
+                                                                      <div  class="card-image">
+                                                                              <img alt="game img" id="m11" src="images/default.png">
+                                                                            </div>
+                                                                            
+                                                              </div>
+                                                              </div>
+
+                                                              <div class="col s4 m3">
+                                                                    <div id="12" class="card darken-1">
+                                                                            <div  class="card-image">
+                                                                                    <img alt="game img" id="m12" src="images/default.png">
+                                                                                  </div>
+                                                                                  
+                                                                    </div>
+                                                                    </div>
+                                                            
+                                                                    <div class="col s4 m3">
+                                                                            
+                                                                          <div id="13" class="card darken-1">
+                                                                                  <div  class="card-image">
+                                                                                          <img alt="game img" id="m13" src="images/default.png">
+                                                                                        </div>
+                                                                                        
+                                                                          </div>
+                                                                          </div>
+                                                            
+                                                                          <div class="col s4 m3">
+                                                                                
+                                                                              <div id="14" class="card darken-1">
+                                                                                      <div  class="card-image">
+                                                                                              <img alt="game img" id="m14" src="images/default.png">
+                                                                                            </div>
+                                                                                            
+                                                                              </div>
+                                                                              </div>
+                                                            
+                                                                              <div class="col s4 m3">
+                                                                                    
+                                                                                  <div id="15" class="card darken-1">
+                                                                                          <div  class="card-image">
+                                                                                                  <img alt="game img" id="m15" src="images/default.png">
+                                                                                                </div>
+                                                                                                
+                                                                                  </div>
+                                                                                  </div>
+                                                            
+                                                                                
+                                                            
+                  
+                              
+
+                
+        
+      </div>
+      <a id="reset" class="waves-effect waves-light btn-small"><i class="material-icons left">cloud</i>Reiniciar</a>
+
+    <!--<a id="win" class="waves-effect waves-light btn-small"><i class="material-icons left">cloud</i>Win Test</a> !-->
+
+
+</div>
+
+</div>
+<div class="container">
+<div class="finish">
+  <h1>Posiciones : </h1>
+  <table class="positions" id="scores">
+      <tr>
+          <th>Nombre</th>
+          <th>Tiempo</th>
+          <th>Errores</th>
+        </tr>
+  </table>
+<div class="margin">
+<a id="goback" class="waves-effect waves-light btn-small"><i class="material-icons left ">arrow_back</i>Volver Atras</a>
+
+
+<div id="shareBtn" class="btn btn-success clearfix">
+    <i class="material-icons left ">share</i>Comparte tus resultados en facebook</div>
+  </div>
+
+
+<script>
+document.getElementById('shareBtn').onclick = function() {
+ let seconds = JSON.parse(localStorage.getItem("seconds"));
+ let errors = JSON.parse(localStorage.getItem("errores"));
+
+
+  FB.ui({
+    display: 'popup',
+    method: 'share',
+    quote : `Termine el juego en ${seconds} segundos y ${errors} errores`,
+    href: 'https://ajavieralejandro.github.io/proyecto-1/',
+  }, function(response){});
+}
+</script>
+
+
+
+
+  
+</div>
+</div>
+
+<footer>
+  <div class="footer">
+    <p> NetToys  <i class="tiny material-icons">copyright</i> es una marca Registrada</p>
+    <p>Autor: Javier Amorosi</p>
+    <p>Librerias utilizadas : <a href="https://jquery.com/">Jquery</a>  <a href="https://materializecss.com/">  Materialize</a></p>
+  </div>
+  </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script  src="js/materialize.min.js"></script>
+    <script  src = "js/jquery.js"></script>
+    <script  src="js/index.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0&appId=853068565203320&autoLogAppEvents=1"></script>
+    <script>
+        window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+        </script>
+
+
+
   </body>
 </html>
